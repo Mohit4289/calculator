@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+  }
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: rgb(11, 11, 11) ;
+  color: black;
+  width: 230px;
+  border-radius: 10px;
+}
+.space{
+ background-color: white;
+ color: black;
+ display: flex;
+ justify-content: center;
+ border-radius: 10px;
+}
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.numbers div{
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 45px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+  
